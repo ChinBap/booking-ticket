@@ -1,0 +1,61 @@
+# ==========================
+# Common
+# ==========================
+*.log
+*.tmp
+*.bak
+*.user
+*.suo
+*.DS_Store
+Thumbs.db
+
+# ==========================
+# Visual Studio / .NET Backend
+# ==========================
+[Bb]in/
+[Oo]bj/
+.vs/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.dbmdl
+*.userprefs
+*.TestResult.xml
+*.nupkg
+.nuget/
+project.lock.json
+.env
+.env.*
+appsettings.Development.json
+secrets.json
+
+# ==========================
+# Android Studio / Gradle Frontend
+# ==========================
+.gradle/
+build/
+.idea/
+captures/
+*.iml
+.gradle/
+*/build/
+app/build/
+*.apk
+*.aab
+*.dex
+*.class
+*.jar
+*.keystore
+*.jks
+/local.properties
+/.navigation/
+/.cxx/
+*.hprof
+
+# ==========================
+# OS generated files
+# ==========================
+.DS_Store
+ehthumbs.db
+desktop.ini
